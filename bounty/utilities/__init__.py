@@ -3,6 +3,7 @@ import pygame
 import logging
 logger = logging.getLogger( __name__ )
 
+class ExitError(): pass
 
 class BoundingBox( object ):
 	"""
